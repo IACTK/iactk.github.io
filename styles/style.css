@@ -1,1 +1,94 @@
+@import url(https://fonts.googleapis.com/css2?family=Boldonse&family=Doto:wght@596&family=Faculty+Glyphic&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Noto+Sans+Mono:wght@100..900&family=Righteous&display=swap);
+.headnav {
+  display: flex;
+  height: 7rem;
+  width: 100%;
+  background-color: navy;
+  justify-content: space-evenly;
+}
+
+header {
+  display: flex;
+  color: black;
+  justify-content: space-evenly;
+  width: 60%;
+  height: 40%;
+  align-items: center;
+  margin-top: 4rem;
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+}
+
+.sidenav {
+  margin-left: 0.6rem;
+  width: 30%;
+  font-family: "Inria Serif", serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.article a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.article {
+  display: flex;
+  background-color: none;
+  height: 7%;
+  width: 40%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: -26px;
+  margin-top: 26px;
+}
+
+.article > div {
+  border: 1.5px solid black;
+  height: 100%;
+  width: 40%;
+  vertical-align: middle;
+  text-align: center;
+  font-family: "Faculty Glyphic", sans-serif;
+  border-radius: 40px;
+  background-color: navy;
+}
+
+.bottnav {
+  height: 5rem;
+  width: 100%;
+  background-color: navy;
+  margin-top: 50rem;
+}
+
+.test {
+  height: 100px;
+  width: 100px;
+}
+
+body {
+  background-image: url(img/bg.jpg);
+}
+
+.headnav > :not(:nth-child(3)) {
+  height: 50%;
+  width: 10%;
+  background-color: none;
+  align-self: center;
+  vertical-align: middle;
+  text-align: center;
+  font-family: "Faculty Glyphic", sans-serif;
+  border-radius: 40px;
+}
+
+.headnav a {
+  text-decoration: none;
+  color: inherit;
+  font-style: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
 
